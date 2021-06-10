@@ -1,0 +1,68 @@
+.Header{
+    background-color: #606060;
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    flex-wrap: wrap;
+    
+}
+
+body{
+    background-color: #808080;
+    border: solid;
+    margin: 0px;
+}
+
+p{
+    text-align: center;                                                                                                                  
+}
+
+.Header *{
+    border: solid;
+    margin: 20px;
+}
+
+.grid *{
+    padding: 10px;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:link{
+    color: pink;
+}
+
+.grid:hover{
+    transform: scale(1.1);
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.6;
+}
+
+a{
+    text-decoration: none;
+}
